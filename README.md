@@ -2,7 +2,7 @@
 
 ## MVPs
 RoadBlocks is a an endless JavaScript game where users control a snake, using a mouse, and destroy roadblocks on the way. 
-The snake can collect points(?) to increase the length of the snake. If the size of size(?) of the roadblock is bigger than the length of the snake, the game ends.
+The snake can collect points(?) to increase the length of the snake. If the size(?) of the roadblock is bigger than the length of the snake, the game ends.
 1. Snake Movement
 2. Roadblocks
 3. Destructible Roadblocks
@@ -21,6 +21,7 @@ The game will use:
 ## Implementation Timeline
 ### Day 1
 * Implement snake movement
+* Snake length
 ### Day 2
 * Add roadblocks
 * Make roadblocks destructible
