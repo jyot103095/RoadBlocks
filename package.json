@@ -1,0 +1,28 @@
+{
+  "name": "RoadBlocks",
+  "version": "1.0.0",
+  "description": "## MVPs RoadBlocks is a an endless JavaScript game where users control a snake, using a mouse, and destroy roadblocks on the way.  The snake can collect points(?) to increase the length of the snake. If the size(?) of the roadblock is bigger than the length of the snake, the game ends. 1. Snake Movement 2. Roadblocks 3. Destructible Roadblocks 4. User Score 5. Pause",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyot103095/RoadBlocks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyot103095/RoadBlocks/issues"
+  },
+  "homepage": "https://github.com/jyot103095/RoadBlocks#readme",
+  "dependencies": {
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
