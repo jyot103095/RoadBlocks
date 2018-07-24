@@ -17,3 +17,13 @@ The game will use:
 
 ## Wireframes
 ![](https://i.imgur.com/gfuTS6X.png)
+
+## Implementation Timeline
+### Day 1
+* Implement snake movement
+### Day 2
+* Add roadblocks
+* Make roadblocks destructible
+### Day 3
+* Pause and Play
+* Add score
