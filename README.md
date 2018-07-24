@@ -9,9 +9,6 @@ The snake can collect points(?) to increase the length of the snake. If the size
 4. User Score
 5. Pause
 
-Bonus Features
-1. Ads
-
 ## Technologies
 The game will use:
 1. Vanilla JavaScript
