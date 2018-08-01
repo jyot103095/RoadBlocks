@@ -4,6 +4,15 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  background: lightblue;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 45px;
+	font-family: "Monoton", cursive;
+	color: black;
+	margin: 10px 0;
 }
 
 canvas {
@@ -11,4 +20,9 @@ canvas {
   height: 700px;
   background-color: black;
   border-radius: 10px;
+}
+
+@font-face {
+	font-family: "Monoton";
+	src: url('./Monoton-Regular.ttf');;
 }
