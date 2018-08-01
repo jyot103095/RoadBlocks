@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+canvas {
+  width: 450px;
+  height: 700px;
+  background-color: black;
+  border-radius: 10px;
+}
