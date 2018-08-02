@@ -7,6 +7,11 @@ body {
   background: black;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 header {
   height: 90px;
 }
@@ -26,10 +31,37 @@ h1 {
   align-items: center;
 }
 
+.personal-info-container {
+  height: 350px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.fa-github {
+  text-shadow: 0 0 3px #6cc644;
+}
+
+.fa-linkedin-in {
+  text-shadow: 0 0 3px #0077B5;
+}
+
+.fa-angellist {
+  text-shadow: 0 0 3px white;
+}
+
+.game-info-container {
+  width: 300px;
+}
+
 canvas {
   width: 450px;
   height: 700px;
-  border: 2px solid blue;
+  border: 1px solid blue;
+  box-shadow: 0 0 10px blue;
   background-color: black;
   border-radius: 10px;
 }
