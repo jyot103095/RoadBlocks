@@ -1,28 +1,35 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  background: lightblue;
+  background: black;
+}
+
+header {
+  height: 90px;
 }
 
 h1 {
-	font-weight: 400;
-	font-size: 45px;
-	font-family: "Monoton", cursive;
-	color: black;
-	margin: 10px 0;
+  font-weight: 400;
+  font-size: 75px;
+  font-family: "Monoton";
+  color: red;
+  margin: 10px 0;
+}
+
+.content-container {
+  height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 canvas {
   width: 450px;
   height: 700px;
+  border: 2px solid blue;
   background-color: black;
   border-radius: 10px;
-}
-
-@font-face {
-	font-family: "Monoton";
-	src: url('./Monoton-Regular.ttf');;
 }
