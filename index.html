@@ -6,7 +6,99 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        background: black;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      header {
+        height: 90px;
+      }
+
+      h1 {
+        font-weight: 400;
+        font-size: 75px;
+        font-family: "Monoton";
+        color: red;
+        margin: 10px 0;
+      }
+
+      .content-container {
+        width: 100%;
+        height: calc(100vh - 90px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .personal-info-container {
+        box-sizing: border-box;
+        height: 350px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        padding-right: 150px;
+      }
+
+      .fa-github {
+        text-shadow: -1px 0 #6cc644, 0 1px #6cc644, 1px 0 #6cc644, 0 -1px #6cc644;
+      }
+
+      .fa-linkedin-in {
+        text-shadow: -1px 0 #0077B5, 0 1px #0077B5, 1px 0 #0077B5, 0 -1px #0077B5;
+      }
+
+      .fa-angellist {
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+      }
+
+      .game-info-container {
+        width: 300px;
+      }
+
+      canvas {
+        width: 450px;
+        height: 700px;
+        border: 1px solid blue;
+        box-shadow: 0 0 10px blue;
+        background-color: black;
+        border-radius: 10px;
+      }
+
+      .game-info-container {
+        box-sizing: border-box;
+        padding: 20px;
+        width: 500px;
+        font-size: 25px;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        font-family: "Do Hyeon";
+      }
+
+      .game-info-container h2 {
+        font-weight: bolder;
+        font-size: 35px;
+        text-align: center;
+      }
+
+      .game-info-container span {
+        display: block;
+        text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+      }
+
+    </style>
     <script type="text/javascript" src="./lib/bundle.js"></script>
   </head>
   <body>
@@ -14,18 +106,21 @@
       <h1>RoadBlocks</h1>
     </header> 
     <div class="content-container">
+      <div class="game-info-container">
+        <h2>Instructions</h2>
+        <p>
+          Use a mouse or a mousepad to control the movement (horizontal only) of the snake.
+          Collect points and survive as long as you can!
+          <span class="tip">Tip: Avoid taking the cursor off the game window. You'll lose control.</span>
+        </p>
+      </div>        
+      <canvas>
+        Your browser does not support canvas. Please try again with a different browser.
+      </canvas>
       <div class="personal-info-container">
         <a href="https://github.com/jyot103095/RoadBlocks" ><i class="fab fa-github fa-5x"></i></a>
         <a href="https://www.linkedin.com/in/jyot103095/" ><i class="fab fa-linkedin-in fa-5x"></i></a>
         <a href="https://angel.co/jyot-patel" ><i class="fab fa-angellist fa-5x"></i></a>
-      </div>
-      <canvas>
-        Your browser does not support canvas. Please try again with a different browser.
-      </canvas>
-      <div>
-        <div class="game-info-container">
-          
-        </div>        
       </div>
     </div>
   </body>
