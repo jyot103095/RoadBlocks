@@ -7,13 +7,15 @@
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
     <style>
+      html {
+        overflow: hidden;
+      }
+
       body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         align-items: center;
         margin: 0 auto;
         background: black;
+        height: 100vh;
       }
 
       a {
@@ -22,8 +24,10 @@
       }
 
       h1 {
+        text-align: center;
+        margin: 0;
         font-weight: 400;
-        font-size: 75px;
+        font-size: 55px;
         font-family: "Monoton";
         color: red;
         margin: 10px 0;
@@ -84,8 +88,13 @@
 
       .game-info-container h2 {
         font-weight: bolder;
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
+        margin: 0;
+      }
+
+      .game-info-container p {
+        margin: 0;
       }
 
       .game-info-container span {
