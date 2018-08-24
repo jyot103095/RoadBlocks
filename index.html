@@ -11,9 +11,20 @@
   <body>
     <div class="md-modal md-effect-5">
       <div class="md-content">
-        <h3>Submit Score</h3>
+        <p id="modal-close-button"><i class="far fa-times-circle fa-lg"></i></p>
+        <h2>Submit Score</h2>
         <form id="highscore-submit-form">
-          <input type="text" name="initials" id="initials" placeholder="Initials" value="" />            
+          <input 
+            type="text" 
+            name="initials" 
+            id="initials" 
+            placeholder="Initials" 
+            value="" 
+            required
+            minlength="3"
+            maxlength="3"
+            oninvalid="this.setCustomValidity('Must be 3 characters long')" 
+            />            
           <input type="submit" class="score-submit" value="Submit" />
         </form>
       </div>
