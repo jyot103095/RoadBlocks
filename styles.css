@@ -243,4 +243,20 @@ canvas {
   color: white;
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+#highscore-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#highscore-list th {
+  width: 33%;
+}
+
+#highscore-list tr {
+  font-size: 25px;
+  height: 70px;
+  text-align: center;
 }
