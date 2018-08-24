@@ -52,11 +52,11 @@ h1 {
 }
 
 .fa-github {
-  text-shadow: -1px 0 #6cc644, 0 1px #6cc644, 1px 0 #6cc644, 0 -1px #6cc644;
+  text-shadow: -1px 0 lime, 0 1px lime, 1px 0 lime, 0 -1px lime;
 }
 
 .fa-linkedin-in {
-  text-shadow: -1px 0 #0077B5, 0 1px #0077B5, 1px 0 #0077B5, 0 -1px #0077B5;
+  text-shadow: -1px 0 cyan, 0 1px cyan, 1px 0 cyan, 0 -1px cyan;
 }
 
 .fa-angellist {
@@ -76,25 +76,27 @@ canvas {
 .game-info-container {
   box-sizing: border-box;
   padding: 20px;
-  font-size: 28px;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  font-family: "Do Hyeon";
+  font-size: 20px;
+  color: white;
+  font-family: "Press Start 2P";
 }
 
 .game-info-container h2 {
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 .game-info-container p {
   margin: 0;
+  font-size: 18px;
 }
 
 .game-info-container span {
   display: block;
-  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+  padding-top: 10px;
+  color: red;
 }
 
 .md-modal {
@@ -125,7 +127,7 @@ canvas {
   margin: 0 auto;
   color: white;
   position: relative;
-  font-family: "Do Hyeon";
+  font-family: "Press Start 2P";
 }
 
 .md-content h2 {
@@ -244,6 +246,12 @@ canvas {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-family: "Press Start 2P";
+}
+
+.content-right-container h2 {
+  font-size: 25px;
+  color: cyan;
 }
 
 #highscore-list {
@@ -252,11 +260,13 @@ canvas {
 }
 
 #highscore-list th {
+  font-size: 20px;
   width: 33%;
+  color: lime;
 }
 
 #highscore-list tr {
-  font-size: 25px;
+  font-size: 18px;
   height: 70px;
   text-align: center;
 }
